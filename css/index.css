@@ -13,6 +13,8 @@ html{
 
 body{
 	overflow: hidden;
+	background-color: aliceblue;
+	height: auto;
 }
 
 header,footer{
@@ -25,6 +27,18 @@ header{
 
 footer{
 	background-color: #58D9C7;
+}
+
+.main-container div{
+	width: 100%;
+	background-color: white;
+	margin: 0 auto;
+}
+
+
+
+h1{
+	
 }
 
 a{
@@ -45,15 +59,22 @@ a:hover{
 	display: flex;
 	align-items: center;
 	height: 100%;
-	width: 100%;
+	width: auto;
 }
 
 .nav-button li{
-	margin-left: 50px;
-	list-style: none;
+    margin-left: 20px;
+    height: 100%;
+	width: auto;
+    list-style: none;
 }
 
 .nav-button ul li a{
-	display:  block;
-	text-align: center;
+    display: block;
+    text-align: mi;
+    height: 100%;
+}
+
+.nav-button ul li a:hover{
+	background-color: #81B381;
 }
