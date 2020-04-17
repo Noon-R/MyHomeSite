@@ -30,14 +30,20 @@ footer{
 	background-color: #58D9C7;
 }
 
+a{
+	text-decoration: none;
+    color: white;
+}
+
+a:hover{
+	color: #000;
+	background-color: #1CDCA9
+}
+
 .main-container div{
 	width: auto;
 	background-color: white;
 	margin: 0 auto;
-}
-
-h1{
-	
 }
 
 .nav-button{
@@ -71,3 +77,5 @@ h1{
 	color: #000;
 	background-color: #91E098
 }
+
+.page-abstract
