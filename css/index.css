@@ -23,27 +23,23 @@ header,footer{
 }
 
 header{
-	background-color: #25D653;
+	background-color: rgb(165, 205, 60);
 }
 
 footer{
-	background-color: #58D9C7;
+	background-color: #71A743;
 }
 
 a{
+	display: inline-block;
+	height: auto;
+	width: auto;
 	text-decoration: none;
     color: white;
 }
 
 a:hover{
 	color: #000;
-	background-color: #1CDCA9
-}
-
-.main-container div{
-	width: auto;
-	background-color: white;
-	margin: 0 auto;
 }
 
 .nav-button{
@@ -70,12 +66,24 @@ a:hover{
 	line-height: 20px;
 	padding: 15px;
     text-decoration: none;
-    color: white;
+    color: #F5FFF3;
 }
 
 .nav-button ul li a:hover{
 	color: #000;
-	background-color: #91E098
+	background-color: #6ACF14;
 }
 
-.page-abstract
+.main-container div{
+	width: auto;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.main-container .page-abstract{
+	background-color: #CDFF94;
+}
+
+.main-body h2{
+	padding-left: 20px;
+}
