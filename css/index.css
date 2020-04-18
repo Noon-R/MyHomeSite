@@ -102,8 +102,7 @@ a:hover{
 }
 
 #last-p{
-	padding: 0;
-	margin: 3px;
+	padding-bottom: 5px;
 }
 
 .main-container .main-body{
@@ -111,5 +110,7 @@ a:hover{
 }
 
 .main-body h2{
-	padding-left: 20px;
+	height: auto;
+	font-size: 25px;
+	padding: 10px 0 10px 2%;
 }
