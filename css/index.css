@@ -39,13 +39,10 @@ a{
 }
 
 hr{
-	height: 1px;
-	margin: 0 5%;
-  	background: #bbb;
-    background-image: -webkit-linear-gradient(left, #eee, #777, #eee);
-	background-image: -moz-linear-gradient(left, #eee, #777, #eee);
-	background-image: -ms-linear-gradient(left, #eee, #777, #eee);
-	background-image: -o-linear-gradient(left, #eee, #777, #eee);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
 }
 
 a:hover{
