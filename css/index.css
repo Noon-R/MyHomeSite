@@ -84,6 +84,16 @@ a:hover{
 	background-color: #CDFF94;
 }
 
+.page-abstract h1{
+	padding: 20px;
+	padding-left: 50px; 
+}
+
+.page-abstract p{
+	padding: 5px 30px;
+	
+}
+
 .main-body h2{
 	padding-left: 20px;
 }
