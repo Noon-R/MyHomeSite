@@ -1,0 +1,36 @@
+.crowd:before{
+	background-color: #DDE799;
+    border-radius: 5px; 
+	position: absolute;
+	display: block;
+    content: "";
+	height: 10px;
+	width: 90px;
+	left: -20px;
+}
+.crowd{
+	background-color: #DDE799; 
+    border-radius: 5px;
+	position: absolute;
+    display: block;
+	content: "";
+    height: 30px; 
+    width: 10px;
+	right: 10%;
+	transform: scale(2.5);
+}
+
+.crowd:after{
+	background-color: #DDE799;
+    border-radius:   5px; /* 線幅の半分 */
+	position: absolute;
+	display: inline-block;
+    content: "";
+    height: 10px;
+	width: 80px;
+	top: 20px;
+	left: -45px;
+	
+}
+
+	/* 線幅 */
