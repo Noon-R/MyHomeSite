@@ -118,3 +118,8 @@ a:hover{
 .item01 {
 	right: 20%;
 }
+
+.item02{
+	right: 28%;
+	bottom: -100px;
+}

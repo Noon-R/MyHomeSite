@@ -28,3 +28,33 @@
 	top: 10px;
 	left: -45px;
 }
+
+.crowd_02, .crowd_02:after, .crowd_02:before{
+	background-color: rgba(221,231,153,0.80);
+	position: absolute;
+	display: block;
+    content: "";
+}
+
+.crowd_02:before{
+	
+    border-radius: 5px; 
+	height: 10px;
+	top: -7px;
+	width: 80px;
+	left: -50px;
+}
+.crowd_02{
+    border-radius: 5px;
+    height: 15px; 
+    width: 10px;
+	transform: scale(2.5);
+}
+
+.crowd_02:after{
+    border-radius: 5px;
+    height: 10px;
+	width: 90px;
+	top: 10px;
+	left: -25px;
+}
