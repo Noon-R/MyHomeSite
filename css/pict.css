@@ -1,36 +1,30 @@
-.crowd:before{
-	background-color: #DDE799;
-    border-radius: 5px; 
+.crowd, .crowd:after, .crowd:before{
 	position: absolute;
 	display: block;
     content: "";
+}
+
+.crowd:before{
+	background-color: #DDE799;
+    border-radius: 5px; 
 	height: 10px;
+	top: -7px;
 	width: 90px;
 	left: -20px;
 }
 .crowd{
 	background-color: #DDE799; 
     border-radius: 5px;
-	position: absolute;
-    display: block;
-	content: "";
-    height: 30px; 
+    height: 15px; 
     width: 10px;
-	right: 20%;
 	transform: scale(2.5);
 }
 
 .crowd:after{
 	background-color: #DDE799;
-    border-radius:   5px; /* 線幅の半分 */
-	position: absolute;
-	display: inline-block;
-    content: "";
+    border-radius: 5px;
     height: 10px;
 	width: 80px;
-	top: 20px;
+	top: 10px;
 	left: -45px;
-	
 }
-
-	/* 線幅 */
