@@ -40,13 +40,12 @@
 	
     border-radius: 5px; 
 	height: 10px;
-	top: -7px;
+	top: -9px;
 	width: 80px;
 	left: -50px;
 }
 .crowd_02{
-    border-radius: 5px;
-    height: 15px; 
+    height: 10px; 
     width: 10px;
 	transform: scale(2.5);
 }
@@ -55,6 +54,6 @@
     border-radius: 5px;
     height: 10px;
 	width: 90px;
-	top: 10px;
+	top: 9px;
 	left: -25px;
 }

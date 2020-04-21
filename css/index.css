@@ -101,7 +101,7 @@ a:hover{
 	
 }
 
-#last-p{
+.last-p{
 	padding-bottom: 5px;
 }
 
@@ -112,7 +112,15 @@ a:hover{
 .main-body h2{
 	height: auto;
 	font-size: 25px;
-	padding: 10px 0 10px 2%;
+	padding: 20px 0 20px 2%;
+}
+
+.suffix span{
+	transform: scale(0.4);
+}
+
+.last-main-body, .last-main-container{
+	padding-bottom: 20px;
 }
 
 .item01 {
@@ -121,5 +129,5 @@ a:hover{
 
 .item02{
 	right: 28%;
-	bottom: -100px;
+	top: 500px;
 }
