@@ -1,0 +1,11 @@
+.article h2{
+	
+	height: auto;
+	padding: 10px 0 0 10px;
+	line-height: auto;
+}
+
+.article .data{
+	text-align: right;
+	
+}

@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>おべんつよのろぐ</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="../css/index.css" rel="stylesheet" type="text/css">
-<script>
+	<head>
+		<meta charset="utf-8">
+		<title>おべんつよのろぐ</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="../css/index.css" rel="stylesheet" type="text/css">
+		<link href="../css/pict.css" rel="stylesheet" type="text/css">
+		<link href="./css/article.css" rel="stylesheet" type="text/css">
+		<script>
   (function(d) {
     var config = {
       kitId: 'jia3jid',
@@ -19,9 +21,9 @@
 		<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5e909333b0904cc68bfc1c61ac1e0217" charset="utf-8"></script>
 	</head>
 	  
-	<body>  
-	  <header>
-		<div class="nav-button">
+	<body>
+		<header>
+			<div class="nav-button">
 			<ul>
 				<li>
 					<a title="ほ～む" href="https://noon-r.com">
@@ -40,18 +42,49 @@
 				</li>
 			</ul>
 		</div>
-	  </header>
-	<div id="day01">
-		<p>とりあえず、着手し始めたことをここに記す。</p>
-		<p>ヘッダーとフッターを横いっぱいに広げるのに苦戦したぞ。こっち雑過ぎ案件。（いや、ただなんか書いたやつ置くためだし）</p>
-    </div>
-	<div id="day02">
-		<p>AtCoder、D問題を一日１問解いて行こう</p>
-	</div>
-	<footer>
+	  	</header>
+		
+		<div class="main-container">
+			<div class="main-body">
+				
+				<div class="article">
+					<h2>サーバー上でrailsの環境を作れない。。。</h2>
+					<p class="data">2020/04/22/21:00</p>
+					<div class="article-body">
+						<p>このホームぺージと一緒にrailsでwebサービスを作ろうとおもっているのにそもそもサーバー上でrails serverして外部からアクセスするところまで到達できない。</p>
+						<p>どうも、sqliteのバージョンが不適切らしいがバージョン上げれないし、gem,bundlerの活用もようわからんしなんもわからん</p>
+					</div>
+				</div>
+				<hr>
+				<div class="article">
+					<h2>このぺージのひな型作った</h2>
+					<p class="data">2020/04/22/20:00</p>
+					<div class="article-body">
+						<p>昨日まで、このぺージに適当に書き込んでいたけど、さっきこのひな形をとりあえず作ってみた</p>
+						<p>タイトル、日付、中身の書く場所をちゃんと決めただけだから30分ぐらいででけた</p>
+						<p>このひな形を自動生成できるようにしたい。</p>
+						
+					</div>
+				</div>
+				<hr>
+				<div id="day01">
+					<p>とりあえず、着手し始めたことをここに記す。</p>
+					<p>ヘッダーとフッターを横いっぱいに広げるのに苦戦したぞ。こっち雑過ぎ案件。（いや、ただなんか書いたやつ置くためだし）</p>
+    			</div>
+				<hr>
+				<div id="day02">
+					<p>AtCoder、D問題を一日１問解いて行こう</p>
+				</div>
+				
+				<div class="last-main-container"></div>
+			</div>
+		</div>
+		
+		
+		<footer>
 		  <a href="https://twitter.com/ryounoon">
 			  Twitter
 		  </a>
 	  </footer>
-</body>
+	</body>
 </html>
