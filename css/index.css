@@ -107,6 +107,7 @@ a:hover{
 .main-container .main-body{
 	height: auto;
 	margin: 0 10%;
+	padding-top: 20px;
 }
 
 .main-body h2{
