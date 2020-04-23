@@ -89,16 +89,15 @@ a:hover{
 
 .main-container .page-abstract{
 	background-color: ghostwhite;
+	padding: 0 10%;
 }
 
 .page-abstract h1{
-	padding: 20px ;
-	padding-left: 5%; 
+	padding: 20px; 
 }
 
 .page-abstract p{
-	padding: 5px 30px;
-	
+	padding: 5px ;	
 }
 
 .last-p{
