@@ -19,35 +19,19 @@
 
 		</script>
 		<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5e909333b0904cc68bfc1c61ac1e0217" charset="utf-8"></script>
+		<script src="/js/jquery-3.5.0.min.js"></script>
+		<script>
+
+			$(function() {
+				$("#header").load("/include/header.html");
+				$("#footer").load("/include/footer.html");
+			});
+		</script>
 	</head>
 	  
 	<body>
-		<header>
-		<div class="nav-button">
-			<ul>
-				<li>
-					<a title="ほ～む" href="https://noon-r.com">
-						ほ～む
-					</a>
-				</li>
-				<li>
-					<a title="おべんきょーのろぐページ" href="/DailyLog">
-					おべんきょーのろぐ
-				</a>
-				</li>
-				<li>
-					<a title="ぽーとふぉりお" href="/Portfolio">
-					ぽーとふぉりお
-				</a>
-				</li>
-				<li>
-					<a title="れんらくさき" href="/Contact">
-					れんらくさき
-				</a>
-				</li>
-			</ul>
-		</div>
-	  </header>
+		
+		<div id="header"></div>
 		
 		<div class="main-container">
 			<div class="main-body">
@@ -91,12 +75,6 @@
 				<div class="last-main-container"></div>
 			</div>
 		</div>
-		
-		
-		<footer>
-		  <a href="https://twitter.com/ryounoon">
-			  Twitter
-		  </a>
-	  </footer>
+		<div id="footer"></div>
 	</body>
 </html>
