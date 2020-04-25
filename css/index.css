@@ -30,6 +30,20 @@ footer{
 	background-color: #71A743;
 }
 
+h1{
+	height: auto;
+	font-size: 35px;
+}
+
+h2{
+	height: auto;
+	font-size: 30px;
+}
+
+p{
+	font-size: 25px;
+}
+
 a{
 	display: inline-block;
 	height: auto;
@@ -112,8 +126,7 @@ a:hover{
 }
 
 .main-body h2{
-	height: auto;
-	font-size: 25px;
+	
 	padding: 20px 0 20px 2%;
 }
 
