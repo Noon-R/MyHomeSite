@@ -1,0 +1,15 @@
+.images {
+	display: flex;
+	align-items: center;
+}
+
+.images img{
+	
+	margin: 10px auto;
+	width: 25%;
+	
+}
+
+.page-abstract a{
+	color: #58BE2F;
+}

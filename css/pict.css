@@ -17,7 +17,6 @@
     border-radius: 5px;
     height: 15px; 
     width: 10px;
-	transform: scale(2.5);
 }
 
 .crowd:after{

@@ -32,16 +32,16 @@ footer{
 
 h1{
 	height: auto;
-	font-size: 35px;
+	font-size: 33px;
 }
 
 h2{
 	height: auto;
-	font-size: 30px;
+	font-size: 28px;
 }
 
 p{
-	font-size: 25px;
+	font-size: 23px;
 }
 
 a{
@@ -139,10 +139,39 @@ a:hover{
 }
 
 .item01 {
+	transform: scale(2.5);
 	right: 20%;
 }
 
 .item02{
+	transform: scale(2.5);
 	right: 28%;
 	top: 500px;
+}
+
+@media screen and (max-width:480px){
+	h1{
+		height: auto;
+		font-size: 25px;
+	}
+
+	h2{
+		height: auto;
+		font-size: 20px;
+	}
+
+	p{
+		font-size: 15px;
+	}
+	.item01 {
+	transform: scale(2.5);
+	right: 20%;
+}
+
+.item02{
+	transform: scale(2.5);
+	right: 28%;
+	top: 500px;
+}
+	
 }
