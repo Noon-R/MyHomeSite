@@ -46,7 +46,6 @@
 .crowd_02{
     height: 10px; 
     width: 10px;
-	transform: scale(2.5);
 }
 
 .crowd_02:after{

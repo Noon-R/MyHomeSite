@@ -166,14 +166,15 @@ a:hover{
 		
 	.item01 {
 		transform: scale(1.5);
-		right: 20%;
+		top: 80%;
+		right: 30%;
 	}
 
 	.item02{
 		background-color: #4E9343;
 		transform: scale(1.5);
-		right: 28%;
-		top: 70%;
+		right: 35%;
+		top: 40%;
 	}
 	
 }
