@@ -146,7 +146,7 @@ a:hover{
 .item02{
 	transform: scale(2.5);
 	right: 28%;
-	top: 500px;
+	top: 700px;
 }
 
 @media screen and (max-width:480px){
@@ -163,15 +163,17 @@ a:hover{
 	p{
 		font-size: 15px;
 	}
+		
 	.item01 {
-	transform: scale(2.5);
-	right: 20%;
-}
+		transform: scale(1.5);
+		right: 20%;
+	}
 
-.item02{
-	transform: scale(2.5);
-	right: 28%;
-	top: 500px;
-}
+	.item02{
+		background-color: #4E9343;
+		transform: scale(1.5);
+		right: 28%;
+		top: 70%;
+	}
 	
 }
