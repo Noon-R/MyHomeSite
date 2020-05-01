@@ -1,26 +1,23 @@
-.crowd, .crowd:after, .crowd:before{
+.crowd, .crowd::after, .crowd::before{
 	position: absolute;
 	display: block;
     content: "";
 }
 
-.crowd:before{
-	background-color: #DDE799;
+.crowd::before{
     border-radius: 5px; 
 	height: 10px;
 	top: -7px;
 	width: 90px;
 	left: -20px;
 }
-.crowd{
-	background-color: #DDE799; 
+.crowd{ 
     border-radius: 5px;
     height: 15px; 
     width: 10px;
 }
 
-.crowd:after{
-	background-color: #DDE799;
+.crowd::after{
     border-radius: 5px;
     height: 10px;
 	width: 80px;
@@ -28,15 +25,13 @@
 	left: -45px;
 }
 
-.crowd_02, .crowd_02:after, .crowd_02:before{
-	background-color: rgba(221,231,153,0.80);
+.crowd_02, .crowd_02::after, .crowd_02::before{
 	position: absolute;
 	display: block;
     content: "";
 }
 
-.crowd_02:before{
-	
+.crowd_02::before{
     border-radius: 5px; 
 	height: 10px;
 	top: -9px;
@@ -48,7 +43,7 @@
     width: 10px;
 }
 
-.crowd_02:after{
+.crowd_02::after{
     border-radius: 5px;
     height: 10px;
 	width: 90px;
