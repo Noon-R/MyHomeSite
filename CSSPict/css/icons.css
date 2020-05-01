@@ -1,0 +1,19 @@
+.main-container {
+	height: 1000px;
+}
+
+.lib-contents, .lib-contents::after, .lib-contents::before{
+	background-color: #000;
+}
+
+.lib-content01{
+	margin-top: 50px;
+	margin-left: 50px;
+    transform: scale(2.5);
+}
+
+.lib-content02{
+	margin-top: 50px;
+	margin-left: 500px;
+	transform: scale(2.5);
+}
