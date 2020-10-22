@@ -2,3 +2,11 @@
 #icon {
 	padding-top: 50;
 }
+
+#GameLink a{
+	color: #2C6D1B;
+}
+
+#GameLink a:hover{
+	color: #17B315;
+}
